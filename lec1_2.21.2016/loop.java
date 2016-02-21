@@ -69,7 +69,7 @@
 //
 // Look at the code below for an example
 public class loop {
-    public static void main() {
+    public static void main(String[] args) {
         int i = 0; 
         while (i < 10) {
             System.out.println("i: " + i); // This is gonna print i: 1, i:2, i:3, ... i:9
@@ -77,8 +77,8 @@ public class loop {
             // When i == 10, it'll go out of this loop
         }
 
-        for (int i = 0; i < 10; i ++) {
-            System.out.println("i: " + i); // This is gonna print i: 1, i:2, i:3, ... i:9 too.
+        for (int j = 0; j < 10; j += 1) {
+            System.out.println("i: " + j); // This is gonna print i: 1, i:2, i:3, ... i:9 too.
         }
     }
 }
