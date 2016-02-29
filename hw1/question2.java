@@ -13,7 +13,7 @@ public class question2 {
 				}
 			}
 			if (isPrimeNumber) {
-				System.out.print(i + "");
+				System.out.print(i + ", ");
 			}
 		}
 	}
